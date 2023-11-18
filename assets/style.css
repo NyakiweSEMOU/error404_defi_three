@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
+
+html, body, .container { height: 100%; background-color: #DBAEFF }
+
+.container {
+    background:url('./composants/Connected.svg');
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+
+.svgs > img{ height: 15.5rem;  width: 15.5rem }
+
+.text{ text-align: center; margin: 1.5rem 0 1.5rem 0 }
+
+.text > p{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+    font-family: 'Tourney', sans-serif;
+    color:#FFFFFF;
+    text-transform: uppercase;
+}
+
+.text > div {
+    width: 40rem; 
+    font-size: 1.2rem;
+    font-family: 'poppins';
+}
+
+button {
+    background:#000000;
+    margin-top:1.2rem;
+    padding: 1rem;
+    width:12.5rem;
+    font-size: 1.2rem;
+    border-radius: 1.5rem;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+button > a { color :#FFFFFF;  font-family: 'poppins'}
